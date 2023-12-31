@@ -3,17 +3,19 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Temperature converter</title>
+    <title>Simple Calculator</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <label for="celsiusInput">Enter Celsius temperature:</label>
-    <input type="number" id="celsiusInput" />
-
-    <button id="convertButton" onclick="temperatureResult()">Convert</button>
-
-    <p id="result">Result</p>
-
+    <div class="container">
+      <h1 id="result">Result</h1>
+      
+      <input type="number" name="" id="num1"><br><br>
+      <input type="number" name="" id="num2"><br><br>
+      <button onclick="addTwo()" type="button">Add</button>
+      <button onclick="minusTwo()" type="button">Minus</button>
+      
+    </div>
     <script src="script.js"></script>
   </body>
 </html>
